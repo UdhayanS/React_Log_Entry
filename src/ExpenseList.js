@@ -1,4 +1,3 @@
-// ExpenseList.js
 import React, { useEffect, useState } from 'react';
 import { fetchShiftLogs, deleteShiftLog } from './firebase';
 import jsPDF from 'jspdf';
@@ -15,7 +14,7 @@ const ShiftLogList = () => {
       }
       setShiftLogs(logList);
     });
-  }, []); // Empty dependency array ensures this runs only on component mount
+  }, []);
 
   const handleDelete = async (id) => {
     try {
@@ -44,7 +43,7 @@ const ShiftLogList = () => {
   return (
     <div className="container mt-5">
       <div className="row justify-content-center">
-        <div className="col-md-10">
+        <div className="col-md-12">
           <div className="card shadow-sm">
             <div className="card-header bg-success text-white">
               <h3 className="mb-0 text-center">Shift Log List</h3>
