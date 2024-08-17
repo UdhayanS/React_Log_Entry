@@ -1,0 +1,28 @@
+/* ExpenseList.css */
+.table {
+    background-color: #f8f9fa; /* Light background color for table */
+  }
+  
+  .table th {
+    background-color: #007bff; /* Blue background for table headers */
+    color: white; /* White text color */
+  }
+  
+  .table td {
+    background-color: #ffffff; /* White background for table cells */
+  }
+  
+  .table tr:hover {
+    background-color: #e9ecef; /* Light gray background on row hover */
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* Green background for button */
+    border-color: #28a745; /* Green border for button */
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+    border-color: #1e7e34; /* Darker green border on hover */
+  }
+  
