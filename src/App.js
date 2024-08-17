@@ -1,6 +1,7 @@
 // App.js
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import ExpenseForm from './ExpenseForm';
 import ExpenseList from './ExpenseList';
 
